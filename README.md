@@ -266,10 +266,15 @@ spec:
 
 ## Conclusion
 1.Dockerize your applications.
+
 2.Create Kubernetes manifests.
+
 3.Set up GitHub Actions for CI.
+
 4.Set up ArgoCD for CD.
+
 5.Install and configure ArgoCD in your EKS cluster.
+
 6.Configure Traefik for SSL.
 
 
