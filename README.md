@@ -56,7 +56,7 @@ project-root/
  5.ArgoCD installed on your EKS cluster.
 
  6.Traefik installed as an ingress controller with SSL/HTTPS via ACME TLS challenge.
- 
+
 
 ## 1. Dockerize Your Applications
 ### Frontend (React): `frontend/Dockerfile`
@@ -98,10 +98,13 @@ CMD ["gunicorn", "--bind", "0.0.0.0:8000", "myproject.wsgi:application"]
 ## 2. Kubernetes Manifests
 Create Kubernetes manifests for deployments, services, and ingress.
 
-### frontend-deployment.yaml
-### backend-deployment.yaml
-### database-deployment.yaml
-### ingress.yaml (with Traefik for SSL)
+frontend-deployment.yaml
+
+backend-deployment.yaml
+
+database-deployment.yaml
+
+ingress.yaml (with Traefik for SSL)
 
 
 
