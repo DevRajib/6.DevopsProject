@@ -41,14 +41,16 @@ project-root/
 
 
 
-## Step-by-Step Instructions
-Prerequisites
-### 1.AWS CLI installed and configured with access to your EKS cluster.
-### 2.kubectl installed and configured.
-### 3.Docker Hub account.
-### 4.GitHub Actions configured for your repository.
-### 5.ArgoCD installed on your EKS cluster.
-### 6.Traefik installed as an ingress controller with SSL/HTTPS via ACME TLS challenge.
+# Step-by-Step Instructions
+
+### Prerequisites
+
+ 1.AWS CLI installed and configured with access to your EKS cluster.
+ 2.kubectl installed and configured.
+ 3.Docker Hub account.
+ 4.GitHub Actions configured for your repository.
+ 5.ArgoCD installed on your EKS cluster.
+ 6.Traefik installed as an ingress controller with SSL/HTTPS via ACME TLS challenge.
 
 ## 1. Dockerize Your Applications
 ### Frontend (React): `frontend/Dockerfile`
