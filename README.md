@@ -2,11 +2,6 @@
 ### Kubernetes Ci CD Deployment > React app - API(DRF)-Database-Traefik - CI CD Deployment to Kubernetes(eks) Cluster With ssl/https.
 
 
-
-# Let's create a markdown file with all the instructions provided in smaller chunks.
-
-# Chunk 1 of the markdown file
-content_chunk_1 = """
 # 3-Tier Kubernetes CI/CD with GitHub Actions and ArgoCD (React, DRF, Database on EKS)
 
 This guide provides a step-by-step setup for a 3-tier Kubernetes architecture (React frontend, DRF backend, and a Database) using GitHub Actions for CI and ArgoCD for CD on Amazon EKS.
